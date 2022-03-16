@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 30px 25px;
+  height: 90px;
+  color: white;
+}
+
+nav > h3,
+nav > h4 {
+  margin: 0;
+}
+
+nav > h3 {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav > h4 {
+  font-weight: 600;
+}
